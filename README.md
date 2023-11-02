@@ -71,7 +71,7 @@ For now, this is my final project in CS50. **I intend to implement what I learne
 
 Specifically I will make a static page web site. The content isn't as important as how I instruct the client using the markup and styling languages. HTML5 and CSS3 are the main focus. What tags/ attributes should I use? What styling gets the desired effect?
 
-##### Description Notes
+#### Description Notes
 
 1. I'll start with a wireframe drawn up on my phone using a stylus. 
 2. I'll set up my ide/ git repository/ and any and all tools I think I'll need and download the rest later so that my workflow follows best practices.
