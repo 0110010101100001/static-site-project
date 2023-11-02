@@ -21,11 +21,34 @@
 2. HTML5 is only a markup language like this readme
 3. CSS3 is only a styling language
 
-`console.log("hello, world")`
-`print("hello, world")`
-`printf("hello, world")`
+`console.log("hello, world")`  
+`print("hello, world")`  
+`printf("hello, world")`  
 ```
+"""
+hackerrank Py: finding the percentage problem
+"""
 
+def main():
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
+
+    print(average(student_marks[query_name]))
+
+
+# return average of scores list as a string
+def average(scores):
+    avg = sum(scores) / len(scores)
+    return f"{avg:.2f}"
+
+
+if __name__ == '__main__':
+    main()
 ```
 ___
 #### Descrition:
