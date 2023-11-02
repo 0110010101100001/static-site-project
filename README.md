@@ -5,7 +5,7 @@
 
 > *"...focus, diffuse, pomodoro..." -  Dr. Barbara Oakley*
 
-![rocket](static/images/images/rocket.png)
+![rocket](./static/images/rocket.png)
 
 |This|is|a|table|
 |--|--|--|-
