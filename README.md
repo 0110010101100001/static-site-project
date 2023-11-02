@@ -3,6 +3,8 @@
 ---
 [TLDR Link to Description Notes](#description-notes)
 
+[Link to Final Project](https://0110010101100001.github.io/static-site-project/)
+
 > *"...focus, diffuse, pomodoro..." -  Dr. Barbara Oakley*
 
 ![rocket](./static/images/rocket.png)
