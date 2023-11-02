@@ -12,10 +12,10 @@
 |row1|row1|row1|row1|
 |row2|row2||row2|
 
--I
--must
--practice
--markup languages
+- I
+- must
+- practice
+- markup languages
 
 1. JavaScript is a functional and OOP language
 2. HTML5 is only a markup language like this readme
