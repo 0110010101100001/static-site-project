@@ -1,6 +1,8 @@
-function defaultTask(cb) {
-    // place code for your default task here
-    cb();
-}
+const gulp = require('gulp');
+const sass = require('gulp-sass');
 
-exports.default = defaultTask
+gulp.task('sass', function() {
+    return gulp.src('static/scss/**/*.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('static/css'));
+})
