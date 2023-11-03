@@ -1,0 +1,22 @@
+{
+  "name": "static-site-project",
+  "version": "1.0.0",
+  "description": "cs50 final project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0110010101100001/static-site-project.git"
+  },
+  "author": "Erik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0110010101100001/static-site-project/issues"
+  },
+  "homepage": "https://github.com/0110010101100001/static-site-project#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
