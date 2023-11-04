@@ -3,6 +3,5 @@ $brown: #99521F;
 $red: #DF4318;
 $white: white;
 
-@import url('define.css');
-@import url('layout.css');
-@import url('components/');
+@import 'layout.scss';
+@import './components/nav.scss';

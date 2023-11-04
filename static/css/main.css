@@ -1,4 +1,69 @@
 /* general styles ex body, headings, links */
-@import url("define.css");
-@import url("layout.css");
-@import url("components/");
+/* define layout systems, positioning etc. */
+#containerNav {
+  margin: 0;
+}
+
+#containerModals {
+  background-color: #DF4318;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#containerModals .boxes {
+  padding: 5%;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #99521F;
+}
+
+#containerMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#containerMain .pageMain {
+  height: 350px;
+}
+
+.quotes {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.containerBody {
+  margin-bottom: 3px;
+  height: 100vh;
+  display: grid;
+  grid-template: 100px 2fr 1fr 6fr 1fr 30px/100%;
+}
+
+.bodySection {
+  background-color: white;
+  margin-top: 10px;
+}
+
+body {
+  width: 100%;
+  background-color: #DF4318;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+footer h6 {
+  margin: 0;
+}
+
+/*define nav bar style*/
+#containerNav {
+  color: green;
+}
