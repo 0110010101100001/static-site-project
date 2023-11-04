@@ -31,11 +31,12 @@ $white: #d3d3d3;
     margin-right: 10%;
 
     .pageMain {
-        height: 350px;
+        height: 800px;
     }
 }
 
 .quotes {
+    height: 30px;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -58,14 +59,18 @@ body {
 }
 
 footer {
+    height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: end;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-bottom: 5px;
 
-    h6 {
-        margin: 0;
+    #author {
+        margin: 0 0 0 9%;
+    }
+
+    #repository {
+        margin: 0 8% 0 0;
     }
 }
