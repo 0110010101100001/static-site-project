@@ -5,5 +5,19 @@ $white: white;
 
 
 #containerNav {
-    color: green;
+    display: flex;
+    padding-left: 2%;
+
+    .navbar {
+        width: 100%;
+
+        .container-fluid {
+            flex-direction: row;
+            justify-content: flex-start;
+
+            .nav-item {
+                padding-left: 5%;
+            }
+        }
+    }
 }

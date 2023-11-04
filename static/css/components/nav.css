@@ -1,4 +1,15 @@
 /*define nav bar style*/
 #containerNav {
-  color: green;
+  display: flex;
+  padding-left: 2%;
+}
+#containerNav .navbar {
+  width: 100%;
+}
+#containerNav .navbar .container-fluid {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#containerNav .navbar .container-fluid .nav-item {
+  padding-left: 5%;
 }
