@@ -1,7 +1,7 @@
 /* define layout systems, positioning etc. */
 $brown: #99521F;
 $red: #DF4318;
-$white: white;
+$white: #d3d3d3;
 
 
 #containerNav {
@@ -18,7 +18,7 @@ $white: white;
         padding: 5%;
         background-color: $white;
         border-style: solid;
-        border-width: 5px;
+        border-width: 1px;
         border-color: $brown;
     }
 }

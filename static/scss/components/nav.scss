@@ -1,17 +1,18 @@
 /*define nav bar style*/
 $brown: #99521F;
 $red: #DF4318;
-$white: white;
+$white: #d3d3d3;
 
 
 #containerNav {
     display: flex;
-    padding-left: 2%;
 
     .navbar {
         width: 100%;
+        padding: 0;
 
         .container-fluid {
+            height: 100%;
             flex-direction: row;
             justify-content: flex-start;
 
@@ -20,4 +21,8 @@ $white: white;
             }
         }
     }
+}
+
+#containerNav * {
+    background-color: $white;
 }

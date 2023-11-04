@@ -1,15 +1,20 @@
 /*define nav bar style*/
 #containerNav {
   display: flex;
-  padding-left: 2%;
 }
 #containerNav .navbar {
   width: 100%;
+  padding: 0;
 }
 #containerNav .navbar .container-fluid {
+  height: 100%;
   flex-direction: row;
   justify-content: flex-start;
 }
 #containerNav .navbar .container-fluid .nav-item {
   padding-left: 5%;
+}
+
+#containerNav * {
+  background-color: #d3d3d3;
 }
