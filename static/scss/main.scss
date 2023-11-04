@@ -1,4 +1,8 @@
 /* general styles ex body, headings, links */
-@import url('reset.css');
+$brown: #99521F;
+$red: #DF4318;
+$white: white;
+
+@import url('define.css');
 @import url('layout.css');
 @import url('components/');
