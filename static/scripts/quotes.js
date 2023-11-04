@@ -69,4 +69,4 @@ document.addEventListener("DOMContentLoaded", setTimeout(function() {
     quoteMain.innerHTML = q;
     // replace divs
     loadingTemp.replaceWith(quoteMain);
-}, 2000));
+}, 1000));
