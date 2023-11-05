@@ -79,7 +79,7 @@ Specifically I will make a static page web site. The content isn't as important 
 
 >*"...neurons, aceltycholine, prefrontal cortex..." - Dr. Terrence Sejnowski*
 
-#### Tech stack used
+#### Tech Stack Used
 - HTML5/ CSS3/ JavaScript
 - Github/ Git/ npm
 - NodeJS
@@ -87,6 +87,18 @@ Specifically I will make a static page web site. The content isn't as important 
 - Gulp
 - Bootstrap
 
----
-
 >*"...desire, you have to learn that too." - Erik*
+
+#### Stretch Goals
+- Deploy both flask apps
+- Host other "home page"
+
+#### Challenges Overcome
+- Handling specificity in custom CSS with bootstrap classes
+- Reducing SASS compile times by specifying precise bootstrap dependencies
+- Finessing another discipline known as web design by making image and theme decisions
+- Filtering bad code advise from the ais
+- Fixing bugs caused by cat walking over keyboard
+- Managing package managers and editors by intent and purpose
+
+---
