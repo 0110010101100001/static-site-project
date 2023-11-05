@@ -4,11 +4,57 @@ $red: #DF4318;
 $white: #d3d3d3;
 
 #containerModals {
-    button {
-        color: $brown;
+    background-color: $red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    .boxes {
+        background-color: $white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: $brown;
+        position: relative;
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            color: $brown;
+            background-color: $white;
+            opacity: .8;
+            transition: .5s ease;
+
+            .exploreText {
+                position: absolute;
+                color: $brown;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
     }
 
-    .modalPset {
-        text-align: center;
+    .containerone:hover {
+        .overlay {
+            opacity: 0;
+        }
+    }
+
+    .containertwo:hover {
+        .overlay {
+            opacity: 0;
+        }
+    }
+
+    .containerthree:hover {
+        .overlay {
+            opacity: 0;
+        }
     }
 }

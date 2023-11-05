@@ -1,7 +1,44 @@
 /*modal styling*/
-#containerModals button {
-  color: #99521F;
+#containerModals {
+  background-color: #DF4318;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-#containerModals .modalPset {
-  text-align: center;
+#containerModals .boxes {
+  background-color: #d3d3d3;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #99521F;
+  position: relative;
+}
+#containerModals .boxes .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: #99521F;
+  background-color: #d3d3d3;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+#containerModals .boxes .overlay .exploreText {
+  position: absolute;
+  color: #99521F;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#containerModals .containerone:hover .overlay {
+  opacity: 0;
+}
+#containerModals .containertwo:hover .overlay {
+  opacity: 0;
+}
+#containerModals .containerthree:hover .overlay {
+  opacity: 0;
 }

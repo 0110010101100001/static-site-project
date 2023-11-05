@@ -9,21 +9,6 @@ $white: #d3d3d3;
     margin: 0;
 }
 
-#containerModals {
-    background-color: $red;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-    .boxes {
-        padding: 5%;
-        background-color: $white;
-        border-style: solid;
-        border-width: 1px;
-        border-color: $brown;
-    }
-}
-
 .containerBody {
     margin-bottom: 3px;
     height: 100vh;

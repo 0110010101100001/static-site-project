@@ -5289,20 +5289,6 @@
   margin: 0;
 }
 
-#containerModals {
-  background-color: #DF4318;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-#containerModals .boxes {
-  padding: 5%;
-  background-color: #d3d3d3;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #99521F;
-}
-
 .containerBody {
   margin-bottom: 3px;
   height: 100vh;
