@@ -1,4 +1,4 @@
-/* define layout systems, positioning etc. */
+/* define general layout systems, positioning etc. */
 $brown: #99521F;
 $red: #DF4318;
 $white: #d3d3d3;
@@ -21,24 +21,6 @@ $white: #d3d3d3;
         border-width: 1px;
         border-color: $brown;
     }
-}
-
-#containerMain {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-
-    .pageMain {
-        height: 800px;
-    }
-}
-
-.quotes {
-    height: 30px;
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 .containerBody {

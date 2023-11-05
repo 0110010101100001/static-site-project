@@ -1,0 +1,53 @@
+/*Style quotes separators, placeholders, and progress for index main content*/
+$brown: #99521F;
+$red: #DF4318;
+$white: #d3d3d3;
+
+.separators {
+    height: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+#containerMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    font-family: "Fira Sans", serif;
+    font-style: italic;
+
+    #loadingTemp {
+        margin-left: 2%;
+        margin-right: 2%;
+
+        span {
+            height: 10px;
+        }
+    }
+
+    #airQuoteOne {
+        align-self: flex-start;
+        margin-left: 10%;
+        margin-bottom: 0;
+        font-size: 8rem;
+    }
+
+    #quote {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 0;
+        font-size: 6rem;
+    }
+
+    #airQuoteTwo {
+        align-self: flex-end;
+        margin-right: 10%;
+        margin-bottom: 0;
+        font-size: 8rem;
+    }
+}

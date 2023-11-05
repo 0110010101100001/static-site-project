@@ -64,8 +64,9 @@ document.addEventListener("DOMContentLoaded", setTimeout(function() {
     // assimilate div
     let quoteMain = document.createElement("p");
     quoteMain.setAttribute("id", "quote");
+    quoteMain.setAttribute("class", "fs-1")
     let quote = getQuote();
-    let q = "\"" + quote["quote"] + "\" ~ " + quote["author"]
+    let q = quote["quote"] + " ~ " + quote["author"]
     quoteMain.innerHTML = q;
     // replace divs
     loadingTemp.replaceWith(quoteMain);
