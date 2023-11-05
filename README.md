@@ -27,30 +27,21 @@
 `print("hello, world")`  
 `printf("hello, world")`  
 ```
+# hackerrank Python: palindrome pyramid
+
 """
-hackerrank Py: finding the percentage problem
+This problem involves the print(), join(), and range() built in Py functions. It also involves list comprehension and string concactenation
 """
-
-def main():
-    n = int(input())
-    student_marks = {}
-    for _ in range(n):
-        name, *line = input().split()
-        scores = list(map(float, line))
-        student_marks[name] = scores
-    query_name = input()
-
-    print(average(student_marks[query_name]))
+n = int(input());
+for i in range(1, n + 1): 
+    print("".join(str(j) for j in range(1, i + 1, 1)) + "".join(str(k) for k in range(i - 1, 0, -1)))
 
 
-# return average of scores list as a string
-def average(scores):
-    avg = sum(scores) / len(scores)
-    return f"{avg:.2f}"
-
-
-if __name__ == '__main__':
-    main()
+"""
+Without using any string functions, getting the ascii representation of a number then computing a palindrome received by squaring a small repunit
+"""
+for i in range(1, n + 1):
+    print(int(ascii(1)*i)**2)
 ```
 ___
 #### Descrition:
@@ -62,7 +53,7 @@ ___
 
 >*"...routine, frogs, interleaving..."*
 
-###### I am a Full-Stack developer. I am everywhere digitally and no where physically. I am a developer. I. am.
+###### I aim to be a Full-Stack developer and more. I am everywhere "digitally" and no where "physically".
 
 >*"...mnemonics, exercise, sleep..."*
 
@@ -81,12 +72,20 @@ Specifically I will make a static page web site. The content isn't as important 
 4. I will then move it from a prototyping environment to a deployment environment
 5. I'll settle on the hosting site when I get to it
 6. I expect to take about a week to finish this site, styling and modifying the previous sites as well
-7. I will turn in this project as a [link to the repository](https://github.com/0110010101100001/static-site-project) and another to the live site.
+7. I will turn in this project as a [link to the repository](https://github.com/0110010101100001/static-site-project) and another to the [live site](https://0110010101100001.github.io/static-site-project/).
 8. I'll continue onto next year with more learning, projects, hackathons, open source code contributions, and networking
 9. By this time next year I expect to be in the industry and paid
 10. **No imposter syndrom here. I. am. confident.**
 
 >*"...neurons, aceltycholine, prefrontal cortex..." - Dr. Terrence Sejnowski*
+
+#### Tech stack used
+- HTML5/ CSS3/ JavaScript
+- Github/ Git/ npm
+- NodeJS
+- SASS
+- Gulp
+- Bootstrap
 
 ---
 
