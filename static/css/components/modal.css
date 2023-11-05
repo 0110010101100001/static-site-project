@@ -2,3 +2,6 @@
 #containerModals button {
   color: #99521F;
 }
+#containerModals .modalPset {
+  text-align: center;
+}

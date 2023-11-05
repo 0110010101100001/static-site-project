@@ -5368,6 +5368,9 @@ footer #repository {
 #containerModals button {
   color: #99521F;
 }
+#containerModals .modalPset {
+  text-align: center;
+}
 
 /*Style quotes separators, placeholders, and progress for index main content*/
 .separators {
