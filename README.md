@@ -92,6 +92,7 @@ Specifically I will make a static page web site. The content isn't as important 
 #### Stretch Goals
 - Deploy both flask apps
 - Host other "home page"
+- Make about page "about me".. in ASSEMBLY CODE! >:D
 
 #### Challenges Overcome
 - Handling specificity in custom CSS with bootstrap classes
