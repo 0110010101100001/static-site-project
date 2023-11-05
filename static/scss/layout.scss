@@ -1,4 +1,5 @@
 /* define general layout systems, positioning etc. */
+@import "../../node_modules/bootstrap/scss/bootstrap-utilities.scss";
 $brown: #99521F;
 $red: #DF4318;
 $white: #d3d3d3;
@@ -38,6 +39,14 @@ $white: #d3d3d3;
 body {
     width: 100%;
     background-color: $red;
+}
+
+@include media-breakpoint-up(xl) {
+    .containerBody { 
+        grid-template: 100px 2fr 1fr 6fr 1fr 30px / 100%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }
 
 footer {
