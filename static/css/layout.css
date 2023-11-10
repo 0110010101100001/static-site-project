@@ -5320,6 +5320,10 @@ footer #repository {
   margin-right: 10%;
 }
 
+* {
+  color: #99521F;
+}
+
 @media (min-width: 992px) {
   body {
     height: 100vh;

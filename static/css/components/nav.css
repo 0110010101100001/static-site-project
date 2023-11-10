@@ -2,6 +2,9 @@
 #containerNav {
   display: flex;
 }
+#containerNav a {
+  color: #99521F;
+}
 #containerNav .navbar {
   width: 100%;
   padding: 0;

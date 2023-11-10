@@ -7,6 +7,10 @@ $white: #d3d3d3;
 #containerNav {
     display: flex;
 
+    a {
+        color: $brown;
+    }
+
     .navbar {
         width: 100%;
         padding: 0;

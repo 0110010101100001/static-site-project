@@ -52,14 +52,12 @@ $white: #d3d3d3;
                 left: 0;
                 height: 100%;
                 width: 100%;
-                color: $brown;
                 background-color: $white;
                 opacity: .99;
                 transition: .5s ease;
 
                 .exploreText {
                     position: absolute;
-                    color: $brown;
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);

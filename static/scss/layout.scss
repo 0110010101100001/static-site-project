@@ -25,7 +25,6 @@ body {
 }
 
 footer {
-    // height: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: space-between;
@@ -41,6 +40,10 @@ footer {
         height: 100%;
         margin-right: 10%;
     }
+}
+
+* {
+    color: $brown;
 }
 
 @include media-breakpoint-up(lg) {

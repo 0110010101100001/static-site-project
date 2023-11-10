@@ -5,6 +5,7 @@
   justify-content: space-between;
   font-family: "Fira Sans", serif;
   font-style: italic;
+  margin: 5px;
 }
 #containerMain #loadingTemp {
   margin-left: 2%;

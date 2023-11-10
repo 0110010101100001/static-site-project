@@ -5321,6 +5321,10 @@ footer #repository {
   margin-right: 10%;
 }
 
+* {
+  color: #99521F;
+}
+
 @media (min-width: 992px) {
   body {
     height: 100vh;
@@ -5338,6 +5342,9 @@ footer #repository {
 /*define nav bar style*/
 #containerNav {
   display: flex;
+}
+#containerNav a {
+  color: #99521F;
 }
 #containerNav .navbar {
   width: 100%;
@@ -10686,14 +10693,12 @@ footer #repository {
     left: 0;
     height: 100%;
     width: 100%;
-    color: #99521F;
     background-color: #d3d3d3;
     opacity: 0.99;
     transition: 0.5s ease;
   }
   #containerModals .boxes .overlay .exploreText {
     position: absolute;
-    color: #99521F;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -10716,6 +10721,7 @@ footer #repository {
   justify-content: space-between;
   font-family: "Fira Sans", serif;
   font-style: italic;
+  margin: 5px;
 }
 #containerMain #loadingTemp {
   margin-left: 2%;
