@@ -4,49 +4,57 @@ $brown: #99521F;
 $red: #DF4318;
 $white: #d3d3d3;
 
-
+// responsive with mobile first
 #containerNav {
-    margin: 0;
+    height: 60px;
 }
 
-.containerBody {
-    margin-bottom: 3px;
-    height: 100vh;
-    display: grid;
-    grid-template: 100px 2fr 1fr 6fr 1fr 30px / 100%;
+.separators {
+    height: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: $red;
 }
 
 .bodySection {
     background-color: $white;
-    margin-top: 10px;
-}
-
-body {
-    width: 100%;
-    background-color: $red;
-}
-
-@include media-breakpoint-up(xl) {
-    .containerBody { 
-        grid-template: 100px 2fr 1fr 6fr 1fr 30px / 100%;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
 }
 
 footer {
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: end;
-    padding-bottom: 5px;
+    // height: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: space-between;
+    margin: 0;
+    padding: 0;
 
     #author {
-        margin: 0 0 0 9%;
+        height: 100%;
+        margin-left: 10%;
     }
 
     #repository {
-        margin: 0 8% 0 0;
+        height: 100%;
+        margin-right: 10%;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    body {
+        height: 100vh;
+        width: 100%;
+        background-color: $red;
+    }
+    
+    .sectionMain {
+        width: 992px;
+        display: grid;
+        grid-template: 30% 10% 50% 10% / 1fr;
+        row-gap: 20px;
+        margin: auto;
     }
 }

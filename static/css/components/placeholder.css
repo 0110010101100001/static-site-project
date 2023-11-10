@@ -1,19 +1,8 @@
 /*Style quotes separators, placeholders, and progress for index main content*/
-.separators {
-  height: 25px;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 15px;
-  margin-bottom: 0;
-}
-
 #containerMain {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10px;
+  justify-content: space-between;
   font-family: "Fira Sans", serif;
   font-style: italic;
 }
@@ -26,7 +15,7 @@
 }
 #containerMain #airQuoteOne {
   align-self: flex-start;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-bottom: 0;
   font-size: 8rem;
 }
@@ -38,7 +27,7 @@
 }
 #containerMain #airQuoteTwo {
   align-self: flex-end;
-  margin-right: 10%;
+  margin-right: 5%;
   margin-bottom: 0;
   font-size: 8rem;
 }
