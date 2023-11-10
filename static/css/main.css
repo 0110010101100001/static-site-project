@@ -10734,17 +10734,34 @@ footer #repository {
   align-self: flex-start;
   margin-left: 5%;
   margin-bottom: 0;
-  font-size: 8rem;
+  font-size: 7em;
 }
 #containerMain #quote {
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 0;
-  font-size: 6rem;
+  font-size: 6em;
 }
 #containerMain #airQuoteTwo {
   align-self: flex-end;
   margin-right: 5%;
   margin-bottom: 0;
-  font-size: 8rem;
+  font-size: 7em;
+}
+#containerMain #progressButton {
+  width: 6em;
+  align-self: center;
+  padding-bottom: 1em;
+}
+#containerMain #progressButton img {
+  height: auto;
+  width: 100%;
+}
+#containerMain #progress {
+  height: 5px;
+  background-color: #d3d3d3;
+}
+#containerMain #progress #progressBar {
+  width: 0%;
+  background-color: #99521F;
 }

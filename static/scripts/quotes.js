@@ -97,6 +97,36 @@ const getQuote = (q = quotes) => {
     return q[random];
 }
 
+// refresh quote box quote and manipulate progress bar
+const refreshQuote = () => {
+    // grab all associated divs
+    let bar = document.getElementById("progressBar");
+    let progress = document.getElementById("progress");
+    let percentage = 0;
+    let quoteMain = document.getElementById("quote");
+
+    // get new quote
+    let quote = getQuote();
+    let q = quote["quote"] + " ~ " + quote["author"];
+
+    // loop through 1/2 second
+    for(let i = 0; i < 10; i++) {
+        setTimeout(function () {
+            percentage += 10;
+            bar.style.width = percentage + "%";
+            progress.setAttribute("aria-valuenow", percentage);
+            console.log(bar.width);
+        }, 50)
+    }
+
+    // match progress bar delay
+    setTimeout(function() {
+        quoteMain.innerHTML = q;
+        bar.style.width = 0 + "%";
+        progress.setAttribute("aria-valuenow", percentage);
+    }, 500)
+}
+
 // add a quote to div
 document.addEventListener("DOMContentLoaded", setTimeout(function() {
     // get temporary div
@@ -106,8 +136,8 @@ document.addEventListener("DOMContentLoaded", setTimeout(function() {
     quoteMain.setAttribute("id", "quote");
     quoteMain.setAttribute("class", "fs-1")
     let quote = getQuote();
-    let q = quote["quote"] + " ~ " + quote["author"]
+    let q = quote["quote"] + " ~ " + quote["author"];
     quoteMain.innerHTML = q;
     // replace divs
     loadingTemp.replaceWith(quoteMain);
-}, 1000));
+}, 500));

@@ -24,20 +24,41 @@ $white: #d3d3d3;
         align-self: flex-start;
         margin-left: 5%;
         margin-bottom: 0;
-        font-size: 8rem;
+        font-size: 7em;
     }
 
     #quote {
         margin-left: 2%;
         margin-right: 2%;
         margin-bottom: 0;
-        font-size: 6rem;
+        font-size: 6em;
     }
 
     #airQuoteTwo {
         align-self: flex-end;
         margin-right: 5%;
         margin-bottom: 0;
-        font-size: 8rem;
+        font-size: 7em;
+    }
+
+    #progressButton {
+        width: 6em;
+        align-self: center;
+        padding-bottom: 1em;
+
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+
+    #progress {
+        height: 5px;
+        background-color: $white;
+
+        #progressBar {
+            width: 0%;
+            background-color: $brown;
+        }
     }
 }
